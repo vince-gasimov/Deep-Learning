@@ -1,0 +1,9 @@
+1 - Start with a basic model (less convolutional layer, without dropout/batch normalization), look at the eval metrics. 
+
+2 - If results not good, exclude image generation on test data + suffle = False; 
+    Increase model complexity
+         
+3 - If we improve results we can increase convolutional layer number + we can add BatchNormalization,  Pooling + We can increase hidden layer number at ANN
+
+4 - If there is overfitting problem; add Dropout and/or BatcchNormalization
+
