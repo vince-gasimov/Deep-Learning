@@ -1,0 +1,15 @@
+1 - Manual CNN RUN --> 0.71
+2 - VGG16 with Manual rescaling RUN --> ACC = 0.91 Result
+2.5 VGG16 with Automatic () rescaling RUN. For this purpose I added;
+i) Add "from tensorflow\.keras.applications.vgg16 import preprocess\_input" to the line in image\_gen
+ii) Comment out "#rescale=1/255" inside image\_gen
+iii) Add "preprocessing\_function=preprocess\_input," inside image\_gen
+
+iv) Provide "preprocessing\_function=preprocess\_input" inside image\_gen\_test, remove "rescale=1/255". ACC?
+
+3. ResNet152 with Manual Rescaling --> ACC 0.90
+   3.5 ResNet152 with Automatic Rescaling --> ACC?
+
+4. ACC?
+
+5. ACC 0.66
