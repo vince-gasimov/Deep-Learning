@@ -1,0 +1,9 @@
+To rename all the images or files in the folder starting from 1, the `rename.py` file can be executed. For this, it is enough to go to the relevant folder in the terminal and type "python rename.py".
+
+For splitting, go to the directory where the `split.py` file is located and run the following code in the terminal:
+(Write the existing dataset folder in the `--folder` part, and the new dataset folder that will be created in the `--dest` part)
+
+"python split.py --train 80 --validation 10 --test 10 --folder dataset --dest brain\_tumor\_dataset"
+
+
+
