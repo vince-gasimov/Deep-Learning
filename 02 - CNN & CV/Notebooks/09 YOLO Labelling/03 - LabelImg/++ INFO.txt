@@ -1,0 +1,12 @@
+* Open the EXE file
+* In the left menu, set the file selection type to YOLO (Pascal/VOC or YOLO)
+* From the Open Dir section, select the folder containing the relevant images, the images will appear in the bottom right corner
+* In the Open Save Dir section, select the folder where the results will be saved (I named it Saved Image), when you label the first image, a classes.txt file will be created in this folder, you can write your desired label names inside it
+* In the top right, you can use the "use default label" (if only one object is being labeled)
+* Open each image one by one and draw rectangles (to avoid continuously selecting rectangle from the menu, use the shortcut w), then click Save in the left menu... This way, the result txt file will be visible in the Saved Image folder
+* Once all labeling is done, the files in the relevant folder can be transferred to Roboflow
+
+Useful Links for download: (there may be a problem with these files)
+
+GITHUB: [https://github.com/HumanSignal/labelImg](https://github.com/HumanSignal/labelImg)
+Prebuilt Executable (Windows): [https://github.com/HumanSignal/labelImg/releases](https://github.com/HumanSignal/labelImg/releases)
