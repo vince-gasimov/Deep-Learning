@@ -1,0 +1,9 @@
+Öncelikle Google Drive daki ana sayfanızda yada ilgili alanda  2 adet klasörü ayrı ayrı oluşturalım:
+* Plate Detection
+* Plate Reading
+
+Plate Detection kısmında data diye bir klasör oluşturup onun içine Plate Detection klasöründe bulunan plate_dataset.zip dosyasını ve config.yaml dosyalarını kopyalayın.Ayrıca diğer bus.jpg klasörünü de buraya kopyalayın. BU klasörde plate_detection.ipynb Colab dokumanı oluşturun. Bu notebook GitHub da paylaşılmıştır.
+
+Plate Reading kısmında da yine data diye bir klasör oluşturup onun içine Plate reading klasöründe bulunan  character_dataset.zip  dosyasını ve config.yaml dosyalarını kopyalayın. BU klasörde plate_reading.ipynb Colab dokumanı oluşturun. Bu notebook GitHub da paylaşılmıştır.
+
+Gereken diğer açıklamalar NB larda yapılmıştır. 

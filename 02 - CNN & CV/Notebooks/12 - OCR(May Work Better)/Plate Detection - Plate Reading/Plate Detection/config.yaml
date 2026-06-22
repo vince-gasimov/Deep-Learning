@@ -1,0 +1,10 @@
+train: /content/drive/MyDrive/CNN-CV Lesson/Data Set and NB/Plate Detection/data/plate_dataset/images/train
+val: /content/drive/MyDrive/CNN-CV Lesson/Data Set and NB/Plate Detection/data/plate_dataset/images/val
+
+nc: 1  # Sınıf sayısı
+names: ['plate']  # Sınıf isimleri
+
+# Etiketler için yollar
+labels:
+  train: /content/drive/MyDrive/CNN-CV Lesson/Data Set and NB/Plate Detection/data/plate_dataset/labels/train
+  val: /content/drive/MyDrive/CNN-CV Lesson/Data Set and NB/Plate Detection/data/plate_dataset/labels/val
